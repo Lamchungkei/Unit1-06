@@ -1,0 +1,86 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {520, 516}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{61, 100}, {121, 49}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "local_button_touch_up_inside",
+          "frame" : "{{220, 242}, {80, 32}}",
+          "title" : "Local Variable",
+          "uuid" : "F69B88A5-03C4-4960-9479-9EBC9C434741",
+          "class" : "Button",
+          "name" : "local_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{61, 257}, {129, 58}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "global_button_touch_up_inside",
+          "frame" : "{{220, 242}, {80, 32}}",
+          "title" : "Global Variable",
+          "uuid" : "168AB109-CB24-486E-817B-421FBA60D1BE",
+          "class" : "Button",
+          "name" : "global_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{276, 100}, {150, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{185, 242}, {150, 32}}",
+          "uuid" : "5DB24BF1-F67A-4752-A739-A9A7D63933B1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "local_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{276, 257}, {150, 44}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{185, 242}, {150, 32}}",
+          "uuid" : "0D323BB0-32C7-4522-9998-D7819A39EA6E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "global_answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
